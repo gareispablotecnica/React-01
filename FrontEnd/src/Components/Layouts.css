@@ -1,0 +1,27 @@
+.encabezado{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.encabezado img{
+    width: auto;
+    height: 90px;
+}
+
+.menu a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid #395080;
+}
+
+.menu:hover :not(a:hover){
+    opacity: 0.5;
+}
