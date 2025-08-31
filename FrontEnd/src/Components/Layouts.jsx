@@ -3,6 +3,9 @@ import './Layouts.css'
 
 import Logotipo from '../assets/Logo/logo.png'
 import Instagram from '../assets/Footer/instagram.png'
+import Linkedin from '../assets/Footer/in.png'
+import Whatsapp from '../assets/Footer/wht.png'
+import Github from '../assets/Footer/github.png'
 
 function Layouts() {
     return (
@@ -19,6 +22,9 @@ function Layouts() {
             <main></main>
             <footer className="pie">
                 <img src={Instagram} alt="" title='Instagram' />
+                <img src={Linkedin} alt="" title='Linkedin' />
+                <img src={Whatsapp} alt="" title='Whatsapp' />
+                <img src={Github} alt="" title='Github' />
             </footer>
         </div>
     )
