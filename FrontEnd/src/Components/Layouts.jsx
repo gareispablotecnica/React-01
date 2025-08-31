@@ -2,7 +2,7 @@
 import './Layouts.css'
 
 import Logotipo from '../assets/Logo/logo.png'
-
+import Instagram from '../assets/Footer/instagram.png'
 
 function Layouts() {
     return (
@@ -15,6 +15,11 @@ function Layouts() {
                     <a href="">Galeria</a>
                 </nav>
             </header>
+            <section className="intermedio"></section>
+            <main></main>
+            <footer className="pie">
+                <img src={Instagram} alt="" title='Instagram' />
+            </footer>
         </div>
     )
 }

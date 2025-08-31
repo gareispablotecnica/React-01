@@ -25,3 +25,24 @@
 .menu:hover :not(a:hover){
     opacity: 0.5;
 }
+
+.intermedio{
+    background-image: url(../assets/Intermedio/intermedio.png);
+    background-position: auto auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.pie{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie img{
+    border-radius: 50%;
+    height: 65px;
+    width: auto;
+}
